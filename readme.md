@@ -1,7 +1,9 @@
 # E-LANG: Energy-Based Joint Inferencing of Super and Swift Language Models
-This notebook contains the demo and the implementation of the paper ['E-LANG: Energy-Based Joint Inferencing of Super and Swift Language Models'](https://aclanthology.org/2022.acl-long.359.pdf).
+This repo contains the demo and the implementation of the paper ['E-LANG: Energy-Based Joint Inferencing of Super and Swift Language Models'](https://aclanthology.org/2022.acl-long.359.pdf), published at ACL2022 (Oral).
 
-![](https://modelarts-cnnorth1-market-dataset.obs.cn-north-1.myhuaweicloud.com/example-apps/elang/images/elang_framework.png)
+Link to arXiv paper: https://arxiv.org/abs/2203.00748
+
+![](https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/e-lang/elang_framework.png)
 
 ## Demo Video for T5-Based E-LANG
 The following video demonstrates the performance of E-LANG with T5 backbone on a random subset of GLUE SST-2. T5-Large and T5-11B are respectively used as Swift and Super models in this demo.
@@ -10,21 +12,20 @@ The following video demonstrates the performance of E-LANG with T5 backbone on a
 ```python
 %%HTML
 <video width="1280" controls>
-    <source src="https://modelarts-cnnorth1-market-dataset.obs.cn-north-1.myhuaweicloud.com/example-apps/elang/images/demo.mp4" type="video/mp4">
+    <source src="https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/e-lang/Demo.mp4" type="video/mp4">
 </video>
 ```
 
 
 <video width="1280" controls>
-    <source src="https://modelarts-cnnorth1-market-dataset.obs.cn-north-1.myhuaweicloud.com/example-apps/elang/images/demo.mp4" type="video/mp4">
+    <source src="https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/e-lang/Demo.mp4" type="video/mp4">
 </video>
 
 
 
 ## Pytorch Implementation of E-LANG with BERT Backbone
 
-#### Download Code
-
+#### Download Code and checkpoints
 
 ```python
 !wget https://modelarts-cnnorth1-market-dataset.obs.cn-north-1.myhuaweicloud.com/example-apps/elang/code.zip
@@ -136,8 +137,8 @@ In order to run the code, please install the required packages using the followi
 
 #### E-LANG results with BERT on GLUE devset compared with SOTA
 
-![](https://modelarts-cnnorth1-market-dataset.obs.cn-north-1.myhuaweicloud.com/example-apps/elang/images/table.png)
+![](https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/e-lang/table.png)
 
 #### Sample Trade-off curves compared with SOTA
 
-![](https://modelarts-cnnorth1-market-dataset.obs.cn-north-1.myhuaweicloud.com/example-apps/elang/images/curves.png)
+![](https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/e-lang/curves.png)
