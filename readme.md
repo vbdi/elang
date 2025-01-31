@@ -3,6 +3,8 @@ This repo contains the demo and the implementation of the paper ['E-LANG: Energy
 
 Link to arXiv paper: https://arxiv.org/abs/2203.00748
 
+Link to Huawei's AI Gallery Notebook: [https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=58b799a0-5cfc-4c2e-8b9b-440bb2315264](https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=64199726-9aaf-4905-8f6f-4cae290df874)
+
 ![](https://vbdai-notebooks.obs.cn-north-4.myhuaweicloud.com/e-lang/elang_framework.png)
 
 ## Demo Video for T5-Based E-LANG
